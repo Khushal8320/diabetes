@@ -1,4 +1,4 @@
-from pycaret.regression import load_model, predict_model
+from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
 from PIL import Image
@@ -50,4 +50,5 @@ def run():
  
  
 if __name__ =='__main__':
+
     run()
